@@ -1,0 +1,15 @@
+/* Projects page styles */
+
+/* Images sizing */
+#project-image1,
+#project-image3,
+#project-image4,
+#project-image5,
+#project-image6 {
+  width: 410px;
+  height: auto;
+}
+#project-image2 {
+  width: 350px;
+  height: auto;
+}

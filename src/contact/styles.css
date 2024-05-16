@@ -1,0 +1,45 @@
+#showFormBtn {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#showFormBtn:hover {
+  background-color: var(--dark-gray);
+}
+
+#customerForm {
+  margin-top: 20px;
+}
+
+#customerForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#customerForm input[type="text"],
+#customerForm input[type="email"],
+#customerForm input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#customerForm input[type="submit"] {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#customerForm input[type="submit"]:hover {
+  background-color: var(--dark-gray);
+}

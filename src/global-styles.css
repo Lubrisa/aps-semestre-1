@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  /* Typography */
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 10px;
+
+  /* Color pallet */
+  --primary: #eff0e2;
+  --secondary: #896a49;
+
+  --background: #f5f5f5;
+
+  --white: #fff;
+  --light-gray: #aaa;
+  --dark-gray: #333;
+  --black: 000;
+}
+
+body {
+  /* Background */
+  background-color: var(--background);
+}
+
+header {
+  /* Background */
+  background-color: var(--primary);
+
+  /* Flex */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Sizing */
+  height: 14rem;
+
+  /* Spacing */
+  padding-inline: 5rem;
+
+  /* Navbar logo */
+  img {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  /* Navbar links */
+  nav ul {
+    /* List styling */
+    list-style: none;
+
+    /* Spacing */
+    padding: 0;
+
+    li {
+      /* Display mode */
+      display: inline;
+
+      /* Spacing */
+      margin-inline: 1rem;
+
+      a {
+        /* Link styling */
+        text-decoration: none;
+
+        /* Text */
+        color: var(--secondary);
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+
+main {
+  /* Spacing */
+  padding-block: 2rem;
+  padding-inline: 15rem;
+}
+
+footer {
+  /* Background */
+  background-color: var(--primary);
+
+  /* Spacing */
+  padding: 1rem;
+
+  /* Text */
+  color: var(--secondary);
+  text-align: center;
+
+  p {
+    font-size: 2.5rem;
+  }
+}
