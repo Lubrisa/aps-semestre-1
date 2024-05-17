@@ -13,3 +13,53 @@
   width: 350px;
   height: auto;
 }
+
+p {
+  /* Text */
+  text-indent: 5rem;
+}
+
+section {
+  /* Spacing */
+  margin-block: 5rem;
+}
+section:first-of-type {
+  /* Spacing */
+  margin-top: 3rem;
+}
+section:last-of-type {
+  /* Spacing */
+  margin-bottom: 3rem;
+}
+
+.img-wrapper {
+  /* Flex */
+  display: flex;
+  justify-content: center;
+
+  /* Spacing */
+  margin-top: 3rem;
+}
+
+article {
+  /* Spacing */
+  margin-block: 2rem;
+}
+article:first-of-type {
+  /* Spacing */
+  margin-top: 0rem;
+}
+article:last-of-type {
+  /* Spacing */
+  margin-bottom: 0rem;
+}
+
+h3 {
+  /* Spacing */
+  margin-top: 3rem;
+}
+
+h4 {
+  /* Spacing */
+  margin-block: 0rem;
+}

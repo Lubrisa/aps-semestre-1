@@ -13,7 +13,7 @@
   --white: #fff;
   --light-gray: #aaa;
   --dark-gray: #333;
-  --black: 000;
+  --black: #000;
 }
 
 body {
@@ -73,6 +73,9 @@ main {
   /* Spacing */
   padding-block: 2rem;
   padding-inline: 15rem;
+
+  /* Sizing */
+  min-height: 100dvh;
 }
 
 footer {

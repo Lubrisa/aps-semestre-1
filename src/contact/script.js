@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     showFormBtn.addEventListener("click", function() {
       if (customerForm.style.display === "none" || customerForm.style.display === "") {
-        customerForm.style.display = "block";
+        customerForm.style.display = "flex";
         showFormBtn.textContent = "Ocultar formulário"
       } else {
         customerForm.style.display = "none";
