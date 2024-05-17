@@ -1,0 +1,17 @@
+/* Landingpage Styles */
+
+main {
+    padding-inline: 30rem;
+}
+
+h1 {
+    /* Spacing */
+    margin-block: 5rem;
+
+    /* Text */
+    text-align: center;
+}
+
+p {
+    text-indent: 5rem;
+}

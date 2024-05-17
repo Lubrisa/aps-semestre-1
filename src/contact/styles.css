@@ -1,0 +1,83 @@
+main {
+  /* Flex */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* Text */
+  text-align: center;
+}
+
+button,
+input[type="submit"] {
+  /* Animation */
+  transition: background-color 0.3s ease;
+  
+  /* Background */
+  background-color: var(--dark-gray);
+  
+   /* Border */
+   border: none;
+   border-radius: 5px;
+  
+  /* Cursor styling */
+  cursor: pointer;
+  
+  /* Positioning */
+  align-self: center;
+  
+  /* Sizing */
+  padding: 1rem 0rem;
+  width: 20rem;
+  
+  /* Spacing */
+  margin-top: 2rem;
+
+  /* Text */
+  color: var(--white);
+  font-size: 1.6rem;
+}
+button:hover,
+input[type="submit"]:hover {
+  /* Background */
+  background-color: var(--black);
+}
+
+form {
+  /* Flex */
+  display: none;
+  flex-direction: column;
+  gap: 2rem;
+
+  /* Sizing */
+  width: 50%;
+
+  /* Spacing */
+  margin-block: 5rem;
+}
+
+label {
+  /* Display mode */
+  display: block;
+
+  /* Spacing */
+  margin-bottom: 0.5rem;
+
+  /* Text */
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  /* Sizing */
+  width: 100%;
+
+  /* Spacing */
+  padding: 10px;
+  margin-bottom: 10px;
+
+  /* Border */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

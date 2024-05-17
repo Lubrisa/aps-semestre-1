@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Info meta tags -->
+    <title>EL Construtora | Contact</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../text-styles.css" />
+    <link rel="stylesheet" href="../global-styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Header with navbar -->
+    <header>
+      <img src="../img/logo.png" alt="Logo da EL Construtora" />
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="../about/index.html">Sobre</a></li>
+          <li><a href="../projects/index.html">Projetos</a></li>
+          <li><a href="../contact/index.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Entre em Contato</h2>
+      <button type="button" id="showFormBtn">Mostrar formulário</button>
+
+      <form id="contactForm">
+        <div>
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div>
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <input type="submit" value="Enviar" />
+      </form>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 EL Construtora</p>
+      </div>
+    </footer>
+  </body>
+</html>
